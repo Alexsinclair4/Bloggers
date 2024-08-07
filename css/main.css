@@ -1,0 +1,48 @@
+/* Navigation styling */
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    display:inline;
+    padding:0 5px;
+}
+body{background-color: wheat;}
+
+a{text-decoration: none; color: saddlebrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder; font-style:italic; font-size: larger;}
+a:hover:active{background-color: blue;}
+a:hover{background-color: white;}
+h1{color: saddlebrown; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large; font-weight: bold; font-style: italic;}
+/*Home page styling  */
+.wrapper{
+    border:3px solid #888;
+    padding:20px;
+    margin:10px auto;
+    border-radius: 10px;
+}
+.title{
+    color:rgb(159, 49, 49);
+}
+.content{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.author{
+    padding:20px;
+}
+.author-txt{
+    font-size:20px;
+    text-align: right;
+}
+.author-txt span{
+    color:cadetblue;
+    font-size: 22px;
+}
